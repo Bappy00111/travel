@@ -4,7 +4,7 @@ import cover from '../assets/image/Traveller 1.png'
 
 const Cover = () => {
   return (
-    <div className="grid grid-cols-2 h-[calc(100vh-200px)]  items-center">
+    <div className="grid grid-cols-2 h-[calc(100vh-40px)]  items-center">
       <div className="col-span-1 ">
         <div className="space-y-6 ">
           <b className="tracking-wide text-[#DF6951]">
