@@ -6,12 +6,12 @@ import mouth from "../assets/iceon/Category Active.svg";
 
 const Cetegore = () => {
   return (
-    <div>
+    <div className="my-10">
       <div className="text-center space-y-2">
         <p className="text-base font-bold text-[#5E6282]">CATEGORY</p>
         <h2 className="text-4xl font-bold text-[#14183E]">We Offer Best Services</h2>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 py-10">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 py-10">
         <div className="flex justify-center items-center">
           <img className="h-80 w-80 object-contain" src={flight} alt="flight" />
         </div>

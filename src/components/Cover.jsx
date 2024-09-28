@@ -1,21 +1,21 @@
 import React from "react";
 import playImg from "../assets/iceon/Play button.svg";
-import cover from '../assets/image/Traveller 1.png'
+import cover from '../assets/image/Traveller 1.png';
 
 const Cover = () => {
   return (
-    <div className="grid md:grid-cols-2 h-[calc(100vh-40px)]  items-center">
-      <div className="col-span-1 ">
-        <div className="space-y-6 ">
+    <div className="grid md:grid-cols-2 lg:h-[calc(100vh-40px)] items-center">
+      <div className="col-span-1 order-2 md:order-1">
+        <div className="space-y-6">
           <b className="tracking-wide text-[#DF6951]">
             Best Destinations around the world
           </b>
-          <h4 className="text-6xl font-bold">
-            Travel, enjoy <br /> and live a new <br />
-            and full life
+          <h4 className="text-3xl md:text:4xl lg:text-6xl font-bold space-y-2">
+            Travel, enjoy <span>and live a new </span>  <span>and full life</span>
+            
           </h4>
           <p className="text-base text-[#5E6282] leading-8">
-            Built Wicket longer admire do barton vanity itself do in it. <br />{" "}
+            Built Wicket longer admire do barton vanity itself do in it. <br />
             Preferred to sportsmen it engrossed listening. Park gate <br /> sell
             they west hard for the.
           </p>
@@ -31,9 +31,9 @@ const Cover = () => {
             </button>
           </div>
         </div>
-        {/* <button>play</button> */}
       </div>
-      <div className="col-span-1 order-1">
+
+      <div className="col-span-1 order-1 md:order-2">
         <img src={cover} alt="" />
       </div>
     </div>

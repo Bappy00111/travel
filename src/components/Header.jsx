@@ -17,7 +17,7 @@ const Header = () => {
       <img src={logo} alt="Logo" className="w-24" />
 
       {/* Menu icon for small devices */}
-      <div className="md:hidden">
+      <div className="lg:hidden">
         {menuOpen ? (
           <MdClose className="text-3xl" onClick={toggleMenu} /> // X icon when menu is open
         ) : (
@@ -29,7 +29,7 @@ const Header = () => {
       <ul
         className={`${
           menuOpen ? "block" : "hidden"
-        } absolute top-24 left-4 w-full bg-white md:relative md:top-0 md:w-auto md:flex md:bg-transparent space-y-6 md:space-y-0 md:space-x-16 md:justify-end md:items-center`}
+        } absolute top-24 left-4 w-full bg-white lg:bg-transparent lg:relative lg:top-0 lg:w-auto lg:flex space-y-6 md:space-y-0 lg:space-x-16 lg:justify-end lg:items-center`}
       >
         <Link to="">
           <li>Destinations</li>
