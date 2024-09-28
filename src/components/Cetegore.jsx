@@ -9,7 +9,7 @@ const Cetegore = () => {
     <div>
       <div className="text-center space-y-2">
         <p className="text-base font-bold text-[#5E6282]">CATEGORY</p>
-        <h2 className="text-4xl font-bold">We Offer Best Services</h2>
+        <h2 className="text-4xl font-bold text-[#14183E]">We Offer Best Services</h2>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 py-10">
         <div className="flex justify-center items-center">

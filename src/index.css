@@ -6,9 +6,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Mulish", system-ui;
+  font-family: "Inter", system-ui;
 }
 
 .container{
-  @apply sm:max-w-xl md:max-w-full md:max-w-screen-xl  mx-auto
+  @apply sm:max-w-xl md:max-w-full lg:max-w-screen-xl xl:max-w-screen-2xl  mx-auto px-4 xl:px-20
 }
